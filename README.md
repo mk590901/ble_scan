@@ -1,4 +1,4 @@
-# TOIT-BLE-SCAN App
+# TOIT-BLE-MEASUREMENTS App
 
 ## Introduction
 The app on __Toit__ shown below, running on an __ESP32-S3__, enables continuous measurement of seven medical parameters using __COLMI R09__ or __R12__ _smart rings_: __heart rate__, __SpO2__, __blood pressure__, __temperature__, __HRV__, __stress__ and __blood sugar__. The patient does not need to be in the room where the chip is installed. The app continuously monitors the smart ring's availability and, if the connection is lost, attempts to reconnect to the device and resume measurements from where they were previously.
